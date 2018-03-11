@@ -48,32 +48,6 @@ namespace WebApplication6.Controllers
             return result;
         }
 
-        // GET: api/Feedback/5
-        [HttpGet("{id}", Name = "Get")]
-        public string Get(int id)
-        {
-            return "value";
-        }
-
-        // POST: api/Feedback
-        [HttpPost]
-        public void Post([FromBody]string value)
-        {
-        }
-
-        // PUT: api/Feedback/5
-        [HttpPut("{id}")]
-        public void Put(int id, [FromBody]string value)
-        {
-        }
-
-        // DELETE: api/ApiWithActions/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
-
-
         private static void PrepareHeader(StringBuilder commaSeparatedContent)
         {
             commaSeparatedContent.Append(
